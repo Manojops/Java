@@ -1,0 +1,8 @@
+Patterns Diagram
+
+1 . Solid Square Pattern
+
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
