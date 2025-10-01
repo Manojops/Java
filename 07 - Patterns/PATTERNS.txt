@@ -1,4 +1,5 @@
 Patterns Diagram
+_______________________________
 
 1 . Solid Square Pattern
 
@@ -6,3 +7,55 @@ Patterns Diagram
     * * * * *
     * * * * *
     * * * * *
+
+2 . Right Angle Triangle
+
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+
+3 . Inverted Triangle
+
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *
+
+4 . Mirrored Triangle
+
+            *
+          * *
+        * * *
+      * * * *
+    * * * * *
+
+5 . Hollow Square
+
+    * * * * *
+    *       *
+    *       *
+    *       *
+    * * * * *
+
+6 . Hollow Right Angle Triangle
+
+    *
+    * *
+    *   *
+    *     *
+    * * * * *
+
+7 . Half Diamond
+
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *
