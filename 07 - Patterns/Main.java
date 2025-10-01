@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        pattern5(4);
+        pattern7(5);
     }
 
     //Pattern1
@@ -61,6 +61,38 @@ public class Main{
                     System.out.print("  ");
                 }
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    //Pattern6
+    static void pattern6(int n){
+        for(int row=1;row<=n;row++){
+            for(int col=1;col<=row;col++){
+                if(col==1 || col==row || row==n ){
+                    System.out.print("* ");
+                }
+
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //Pattern7
+    static void pattern7(int n){
+        for(int row=1;row<=n;row++){
+            for(int i=1;i<=row;i++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for(int row=1;row<=n;row++){
+            for(int j=n-row;j>=1;j--){
+                System.out.print("* ");
             }
             System.out.println();
         }
