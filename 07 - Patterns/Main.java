@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        pattern7(5);
+        pattern10(5);
     }
 
     //Pattern1
@@ -97,4 +97,55 @@ public class Main{
             System.out.println();
         }
     }
+
+    //Pattern8
+    static void pattern8(int n){
+        for(int row=1;row<=n;row++){
+            for(int i=1;i<=n-row;i++){
+                System.out.print("  ");
+            }
+            for(int i=1;i<=2*row-1;i++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    //Pattern9
+    static void pattern9(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("  ");
+            }
+
+            for(int j=1;j<=2*(n-i)+1;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    //Pattern10
+    static void pattern10(int n){
+        for(int row=1;row<=n;row++){
+            for(int i=1;i<=n-row;i++){
+                System.out.print("  ");
+            }
+            for(int i=1;i<=2*row-1;i++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for(int i=1;i<=n-1;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("  ");
+            }
+
+            for(int j=1;j<=2*(n-i)-1;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
 }
